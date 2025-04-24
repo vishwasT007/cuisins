@@ -1,12 +1,40 @@
-# React + Vite
+# Cuisins - Healthy Meal Delivery 🍽️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Cuisins Hero Banner](src/assets/hero/meals.jpg)
 
-Currently, two official plugins are available:
+A modern React frontend for a healthy meal delivery service with beautiful UI and smooth animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+[https://vishwast007.github.io/cuisins/](https://vishwast007.github.io/cuisins/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- **Responsive Design**: Works on all devices
+- **Modern UI**: Clean animations and transitions
+- **Meal Selection**: Browse different meal plans
+- **Customer Reviews**: Social proof section
+- **Subscription**: Easy signup flow
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+
+- React 18
+- Vite 4
+- CSS Modules
+- React Icons
+
+**Build Tools:**
+
+- Vite
+- GitHub Actions (CI/CD)
+
+## 📦 Installation
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/vishwast007/cuisins.git
+cd cuisins
+```
