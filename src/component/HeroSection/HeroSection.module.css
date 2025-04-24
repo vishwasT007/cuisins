@@ -1,0 +1,31 @@
+.sectionHero {
+  height: 90vh; /* Exactly viewport height */
+  display: flex;
+  background: linear-gradient(
+    359.56deg,
+    rgba(196, 232, 180, 0.43) -32.94%,
+    rgba(216, 245, 204, 0) 99.61%
+  );
+}
+
+.heroContentWrapper {
+  flex: 1; /* Takes all available space */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pushes content to top and bottom */
+  padding: 2rem 0; /* Adjust as needed */
+  max-width: 130rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .sectionHero {
+    height: auto; /* Switch to auto height on mobile */
+    min-height: 100vh; /* Still fill screen when possible */
+  }
+
+  .heroContentWrapper {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,55 @@
+.heroCustomerProof {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  gap: 1.5rem;
+}
+
+.customerImgWrapper {
+  display: flex;
+}
+
+.customerAvatar {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  width: 5.5rem;
+  height: 5.5rem;
+  margin-right: -1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.customerAvatar:hover {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.customerAvatar:last-child {
+  margin: 0;
+}
+
+.customerData {
+  font-size: 1.6rem;
+}
+
+.heartIcon {
+  color: #b80000;
+  font-weight: 700;
+}
+
+.customerData span:first-of-type {
+  color: #2a8900;
+}
+
+.customerData span:last-of-type {
+  color: #585858;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  font-style: italic;
+  color: #666;
+}

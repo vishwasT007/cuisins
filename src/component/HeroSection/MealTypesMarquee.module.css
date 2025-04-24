@@ -1,0 +1,76 @@
+.heroMarquee {
+  max-width: 65rem;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 3rem;
+}
+
+.mealTypesList {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 3rem;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.marqueeAnimation {
+  animation: marquee 12s infinite linear;
+}
+
+.marqueeAnimation:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.paleo {
+  background: #eed374;
+}
+
+.vegan {
+  background: #64dc77;
+}
+
+.gluten {
+  background: #d7beff;
+}
+
+.lactose {
+  background: #e8c2d4;
+}
+
+.pesca {
+  background: #c2e1e8;
+}
+
+.vegetarian {
+  background: #82ae8e;
+}
+
+.keto {
+  background: #cec99e;
+}
+
+.fodmap {
+  background: #ffa9a9;
+}
+
+.kid {
+  background: #f39f52;
+}
+
+.mealTypesList li {
+  display: inline-block;
+  padding: 0.6rem 0.8rem;
+  border-radius: 50px;
+  margin: 0.5rem;
+}

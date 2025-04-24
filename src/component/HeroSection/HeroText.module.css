@@ -1,0 +1,41 @@
+.heroTextWrapper {
+  margin: 3rem;
+  text-align: left; /* Ensure consistent alignment */
+}
+
+.heroHeading {
+  font-size: 5rem;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  line-height: 1.2; /* Better line spacing */
+  margin-bottom: 1.5rem;
+}
+
+.heroDescription {
+  font-size: 2.1rem;
+  max-width: 60rem;
+  margin-bottom: 3rem;
+  line-height: 1.6; /* Improved readability */
+}
+
+/* Fix for span elements */
+.heroHeading span,
+.heroDescription span {
+  display: inline; /* or inline-block if needed */
+  white-space: normal; /* Ensure proper wrapping */
+}
+
+/* Ensure spaces around spans */
+.heroDescription span::before {
+  content: " "; /* Adds space before span */
+}
+
+.heroDescription span::after {
+  content: " "; /* Adds space after span */
+}
+
+.heroButtons {
+  margin-top: 4rem;
+  display: flex;
+  gap: 2rem; /* This adds space between buttons */
+}

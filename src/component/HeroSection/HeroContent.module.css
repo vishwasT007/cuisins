@@ -1,0 +1,10 @@
+.heroGroup {
+  display: grid;
+  grid-template-columns: 45fr 55fr;
+  max-width: 130rem;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 20rem); /* Adjust based on your header/footer */
+}

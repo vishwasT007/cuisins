@@ -1,0 +1,46 @@
+.button {
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button i {
+  display: inline-block;
+  margin-left: 6.5rem;
+}
+
+.solid {
+  background-color: #2b7f06;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.solid:hover {
+  background-color: #1f5e04;
+}
+
+/* Size variants */
+.small {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+}
+
+.medium {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+}
+
+.large {
+  padding: 1.5rem 3rem;
+  font-size: 2rem;
+}
+
+/* Icon sizing relative to button */
+.button svg {
+  width: 1em; /* Relative to font size */
+  height: 1em;
+  margin-left: 0.5em;
+  vertical-align: middle;
+}
