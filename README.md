@@ -2,7 +2,7 @@
 
 ![Cuisins Hero Banner](src/assets/hero/meals.jpg)
 
-A modern React frontend for a healthy meal delivery service with beautiful UI and smooth animations.
+A modern React frontend for a healthy meal delivery service with beautiful clean UI and smooth animations.
 
 ## 🚀 Live Demo
 
