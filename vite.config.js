@@ -8,7 +8,7 @@ export default defineConfig({
     outDir: "dist", // Output directory for production build
   },
   plugins: [react()],
-  base: "/cuisins/", // Base public path for GitHub Pages deployment
+  base: "/cuisins/", // Base public path for GitHub Pages deployment hmm
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)), // Proper path alias resolution
